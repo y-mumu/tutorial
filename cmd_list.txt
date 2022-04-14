@@ -1,0 +1,44 @@
+★最初のおまじない★
+git config --global user.name "おなまえ"
+    →ユーザ登録
+
+git config --global user.email "メールアドレス"
+    →メールアドレス登録
+
+git config --global core.editor "code --wait"
+    →利用エディタ登録
+
+git config --list
+    →Git登録情報を表示
+    　個別の情報を確認する場合はオプションに項目名を入力する
+    　例）user.name , core.editor
+
+
+★使いはじめ★
+git init
+    →ローカルリポジトリ新規作成。.gitディレクトリが作成される
+
+git clone リポジトリ名
+　　→リモートリポジトリのファイルをローカルリポジトリとワークツリーにコピーする
+　　　コマンド例） git init https://github.com/atom/atom.git
+
+★ソース管理★
+
+git add ソース名orディレクトリ名
+　　→変更準備をする
+
+git commit
+　　→変更を記録する。コミットメッセージは設定したエディタで記述して保存する
+　　　　　オプションがない場合は変更されるファイル名のみ表示される。
+       -m ・・・エディタを表示しない
+       -v ・・・ファイルの変更内容を変更する
+
+
+git status
+git 
+git 
+git 
+git 
+git 
+git 
+
